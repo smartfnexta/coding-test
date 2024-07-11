@@ -57,6 +57,6 @@
 
 ### coding-test-api-test
 コーディングテスト用のAPIサーバアプリのテストプロジェクトです
-Appフォルダ配下は [coding-test-api](###coding-test-api)と同様のフォルダ構成となります
+Appフォルダ配下は [coding-test-api](#coding-test-api)と同様のフォルダ構成となります
 
 
