@@ -59,4 +59,4 @@
 Appフォルダ配下は [coding-test-api](#coding-test-api)と同様のフォルダ構成となります
 
 
-[README]("各プロジェクトの説明.md")
+[README](README.md)
