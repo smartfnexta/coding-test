@@ -3,7 +3,7 @@
 
 ## 各プロジェクトの説明
 
-### coding-tets-model
+### coding-test-model
 データモデルを一式格納しているプロジェクトです。
 クライアント／サーバを全てC#で統一する全体設計となっております。
 フォルダ構成は以下の通りです。
@@ -55,8 +55,8 @@
 | Modules | API開発におけるモジュール群を置くフォルダ |
 | Repositories | API開発におけるDBアクセス群を置くフォルダ　※別アセンブリにするか検討中 |
 
-### coding-tets-api-test
+### coding-test-api-test
 コーディングテスト用のAPIサーバアプリのテストプロジェクトです
-Appフォルダ配下は [coding-test-api] と同様のフォルダ構成となります
+Appフォルダ配下は [coding-test-api](###coding-test-api)と同様のフォルダ構成となります
 
 
