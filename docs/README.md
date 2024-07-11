@@ -34,7 +34,7 @@ main ブランチから以下の命名規則でブランチを作成してくだ
 ## テスト説明
 応募職種に応じて下記リンクからテスト説明をご確認ください。  
 
-[テスト説明 - 開発エンジニア(E2)](TestDescrpition-E2.md)  
-[テスト説明 - 開発エンジニア(E3)](TestDescrpition-E3.md)  
-[テスト説明 - QAエンジニア](TestDescrpition-QA.md)  
-[テスト説明 - SREエンジニア](TestDescrpition-SRE.md)  
+[テスト説明 - 開発エンジニア(E2)](Test-E2.md)  
+[テスト説明 - 開発エンジニア(E3)](Test-E3.md)  
+[テスト説明 - QAエンジニア](Test-QA.md)  
+[テスト説明 - SREエンジニア](Test-SRE.md)  

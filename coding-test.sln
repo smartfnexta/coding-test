@@ -15,10 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 		docs\Design-coding-test-model.md = docs\Design-coding-test-model.md
 		docs\README.md = docs\README.md
 		docs\Design-coding-test-api.md = docs\Design-coding-test-api.md
-		docs\TestDescrpition-QA.md = docs\TestDescrpition-QA.md
-		docs\TestDescrpition-E2.md = docs\TestDescrpition-E2.md
-		docs\TestDescrpition-E3.md = docs\TestDescrpition-E3.md
-		docs\TestDescrpition-SRE.md = docs\TestDescrpition-SRE.md
+		docs\Test-QA.md = docs\Test-QA.md
+		docs\Test-E3.md = docs\Test-E3.md
+		docs\Test-E2.md = docs\Test-E2.md
+		docs\Test-SRE.md = docs\Test-SRE.md
 	EndProjectSection
 EndProject
 Global

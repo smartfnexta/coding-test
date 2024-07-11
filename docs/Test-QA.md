@@ -1,4 +1,4 @@
-## テスト説明 - QAエンジニア
+## テスト - QAエンジニア
 
 ### お題１
 プロジェクト [coding-test-api-test](Design-coding-test-api-test.md) の以下のクラスの単体テストを実装してください。  
