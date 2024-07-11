@@ -14,8 +14,7 @@
 * App > Repositories > PurchaseOrderRepository
  
 ### お題３
-Inventory と PurchaseOrder の各ソースコードを解析して、どちらの設計方法が品質を維持しやすい設計方法だと思うかを教えてください。  
-また、その考えの根拠を教えてください。  
+Inventory と PurchaseOrder の各ソースコードを解析して、どちらの設計方法が品質を維持しやすい設計方法か、また、その考えの根拠をご説明ください。  
 回答は下記 --- の中にフリーフォーマットに記載をお願いします。
 
 ---
