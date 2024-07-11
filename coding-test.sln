@@ -11,8 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coding-test-model", "coding
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{BAAE9A45-20A8-4D74-8E8E-F80DAB9591D2}"
 	ProjectSection(SolutionItems) = preProject
+		docs\Design-coding-test-api-test.md = docs\Design-coding-test-api-test.md
+		docs\Design-coding-test-model.md = docs\Design-coding-test-model.md
 		docs\README.md = docs\README.md
-		docs\SolutionDescription.md = docs\SolutionDescription.md
+		docs\Design-coding-test-api.md = docs\Design-coding-test-api.md
+		docs\TestDescrpition-QA.md = docs\TestDescrpition-QA.md
+		docs\TestDescrpition-E2.md = docs\TestDescrpition-E2.md
+		docs\TestDescrpition-E3.md = docs\TestDescrpition-E3.md
+		docs\TestDescrpition-SRE.md = docs\TestDescrpition-SRE.md
 	EndProjectSection
 EndProject
 Global
