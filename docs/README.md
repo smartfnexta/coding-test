@@ -1,4 +1,4 @@
-## �͂��߂�
-�{�v���W�F�N�g��NEXTA�̃G���W�j�A�̗p�̃R�[�f�B���O�e�X�g�ł�
+## はじめに
+本プロジェクトはNEXTAのエンジニア採用のコーディングテストです
 
-[�e�v���W�F�N�g�̐���]("docs/�e�v���W�F�N�g�̐���.md")
+[各プロジェクトの説明]("各プロジェクトの説明.md")
