@@ -1,14 +1,14 @@
 ## ƒeƒXƒgà–¾ - QAƒGƒ“ƒWƒjƒA
 
 ### ‚¨‘è‚P
-ƒvƒƒWƒFƒNƒg [coding-test-api-test](Design-coding-test-api-test.md) ‚É [coding-test-api](Design-coding-test-api.md) ‚É‚ ‚éˆÈ‰º‚ÌƒNƒ‰ƒX‚Ì’P‘ÌƒeƒXƒg‚ğÀ‘•‚µ‚Ä‚­‚¾‚³‚¢B
-’P‘ÌƒeƒXƒg‚ğì¬‚·‚éƒtƒHƒ‹ƒ_ˆÊ’u‚Í [coding-test-api-test](Design-coding-test-api-test.md) ‚ğ‚²Ql‚­‚¾‚³‚¢B
+ƒvƒƒWƒFƒNƒg [coding-test-api-test](Design-coding-test-api-test.md) ‚ÌˆÈ‰º‚ÌƒNƒ‰ƒX‚Ì’P‘ÌƒeƒXƒg‚ğÀ‘•‚µ‚Ä‚­‚¾‚³‚¢B
+’P‘ÌƒeƒXƒg‚ğì¬‚·‚éêŠ‚Í [coding-test-api-test](Design-coding-test-api-test.md) ‚ğ‚²Ql‚­‚¾‚³‚¢B
 * App > Api > Inventories > Controllers > GetInventoryController
 * App > Api > Inventories > Services > GetInventoryServices
 
 ### ‚¨‘è‚Q
-ƒvƒƒWƒFƒNƒg [coding-test-api-test](Design-coding-test-api-test.md) ‚É [coding-test-api](Design-coding-test-api.md) ‚É‚ ‚éˆÈ‰º‚ÌƒNƒ‰ƒX‚Ì’P‘ÌƒeƒXƒg‚ğÀ‘•‚µ‚Ä‚­‚¾‚³‚¢B
-’P‘ÌƒeƒXƒg‚ğì¬‚·‚éƒtƒHƒ‹ƒ_ˆÊ’u‚Í [coding-test-api-test](Design-coding-test-api-test.md) ‚ğ‚²Ql‚­‚¾‚³‚¢B
+ƒvƒƒWƒFƒNƒg [coding-test-api-test](Design-coding-test-api-test.md) ‚ÌˆÈ‰º‚ÌƒNƒ‰ƒX‚Ì’P‘ÌƒeƒXƒg‚ğÀ‘•‚µ‚Ä‚­‚¾‚³‚¢B
+’P‘ÌƒeƒXƒg‚ğì¬‚·‚éêŠ‚Í [coding-test-api-test](Design-coding-test-api-test.md) ‚ğ‚²Ql‚­‚¾‚³‚¢B
 * App > Api > Purchases > Controllers > GetPurchaseOrderController
 * App > Api > Purchases > Services > GetPurchaseOrderService
 * App > Repositories > PurchaseOrderRepository
@@ -23,8 +23,8 @@ Inventory ‚Æ PurchaseOrder ‚ÌŠeƒ\[ƒXƒR[ƒh‚ğ‰ğÍ‚µ‚ÄA‚Ç‚¿‚ç‚ÌİŒv•û–@‚ª•i¿‚ğˆ
 ¦‚±‚±‚É‘‚¢‚Ä‚­‚¾‚³‚¢
 
 
-
 ---
+
 
 
 [README](README.md)
