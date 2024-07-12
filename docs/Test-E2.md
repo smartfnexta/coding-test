@@ -1,6 +1,5 @@
-## ƒeƒXƒg - ŠJ”­ƒGƒ“ƒWƒjƒA(E2)
+# ãƒ†ã‚¹ãƒˆ - é–‹ç™ºã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢(E2)
 
-### ‚¨‘è‚P
-
+## ãŠé¡Œï¼‘
 
 [README](README.md)

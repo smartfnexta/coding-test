@@ -1,28 +1,28 @@
-## coding-test-model �v���W�F�N�g
+# coding-test-model プロジェクト
 
-�f�[�^���f�����ꎮ�i�[���Ă���v���W�F�N�g�ł��B  
+データモデルを一式格納しているプロジェクトです。  
 
-### �t�H���_�\��
+## フォルダ構成
 
-|�t�H���_|�t�H���_|
-| ---- | ---- |
-|Api|Inventories|
-||PurchaseOrders|
-||ReceiveOrders|
-|Entities|
+```text
+Root:
+├─Api
+│  ├─Inventories
+│  ├─PurchaseOrders
+│  └─ReceiveOrders
+└─Entities
+```
 
+各フォルダの説明は以下の通りです。
 
-�e�t�H���_�̐����͈ȉ��̒ʂ�ł��B
+| フォルダ名 | 説明                                        |
+| ---------- | ------------------------------------------- |
+| Api        | APIのインターフェース関連を格納するフォルダ |
+| Entities   | DBのインターフェース関連を格納するフォルダ  |
 
-|�t�H���_��|����|
-| ---- | ---- |
-| Api | API�̃C���^�[�t�F�[�X�֘A���i�[����t�H���_ |
-| Entities | DB�̃C���^�[�t�F�[�X�֘A���i�[����t�H���_ |
+## 設計方針
 
-
-## �݌v���j
-
-���f����ʃA�Z���u���ɐ؂�o���ăN���C�A���g�^�T�[�o�̑o������Q�Ƃ��܂��B
-�������邱�ƂŃN���C�A���g�^�T�[�o�Ԃł̃f�[�^���߂�DRY�ɂ��܂��B
+モデルを別アセンブリに切り出してクライアント／サーバの双方から参照します。
+こうすることでクライアント／サーバ間でのデータ解釈をDRYにします。
 
 [README](README.md)

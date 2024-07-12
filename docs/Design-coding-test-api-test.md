@@ -1,18 +1,19 @@
-### coding-test-api-test ƒvƒƒWƒFƒNƒg
+# coding-test-api-test ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
 
-ƒR[ƒfƒBƒ“ƒOƒeƒXƒg—p‚ÌAPIƒT[ƒoƒAƒvƒŠ‚ÌƒeƒXƒgƒvƒƒWƒFƒNƒg‚Å‚·
+ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ãƒ†ã‚¹ãƒˆç”¨ã®APIã‚µãƒ¼ãƒã‚¢ãƒ—ãƒªã®ãƒ†ã‚¹ãƒˆãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã§ã™
 
-### ƒtƒHƒ‹ƒ_\¬
+## ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆ
 
-AppƒtƒHƒ‹ƒ_”z‰º‚Í [coding-test-api](#Design-coding-test-api.md)‚Æ“¯—l‚ÌƒtƒHƒ‹ƒ_\¬‚Æ‚È‚è‚Ü‚·B
-[coding-test-api](#Design-coding-test-api.md)‚Æ“¯ˆÊ’u‚ÉˆÈ‰º‚Ì–½–¼‹K–ñ‚ÅƒeƒXƒgƒNƒ‰ƒX‚ğì¬‚µ‚Ü‚·B
+Appãƒ•ã‚©ãƒ«ãƒ€é…ä¸‹ã¯ [coding-test-api](Design-coding-test-api.md)ã¨åŒæ§˜ã®ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆã¨ãªã‚Šã¾ã™ã€‚
+[coding-test-api](Design-coding-test-api.md)ã¨åŒä½ç½®ã«ä»¥ä¸‹ã®å‘½åè¦ç´„ã§ãƒ†ã‚¹ãƒˆã‚¯ãƒ©ã‚¹ã‚’ä½œæˆã—ã¾ã™ã€‚
 
-|–½–¼‹K–ñ|–½–¼—á|
-| ---- | ---- |
-|{ƒeƒXƒgƒNƒ‰ƒX–¼}Test.cs|GetInventoryControllerTest.cs|
+| å‘½åè¦ç´„                | å‘½åä¾‹                        |
+| ----------------------- | ----------------------------- |
+| {ãƒ†ã‚¹ãƒˆã‚¯ãƒ©ã‚¹å}Test.cs | GetInventoryControllerTest.cs |
 
-### İŒv•ûj
-ƒeƒXƒgƒtƒŒ[ƒ€ƒ[ƒN‚É‚Í xUnit ‚ğ—˜—p‚µ‚Ü‚·B  
-ƒeƒXƒg—p‚Ìƒ‚ƒbƒNƒ‰ƒCƒuƒ‰ƒŠ‚É‚Í Moq ‚ğ—˜—p‚µ‚Ü‚·B
+## è¨­è¨ˆæ–¹é‡
+
+ãƒ†ã‚¹ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯ã«ã¯ xUnit ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚  
+ãƒ†ã‚¹ãƒˆç”¨ã®ãƒ¢ãƒƒã‚¯ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã«ã¯ Moq ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
 
 [README](README.md)

@@ -1,42 +1,42 @@
-## Design-coding-test-api ƒvƒƒWƒFƒNƒg
+# Design-coding-test-api ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
 
-ƒR[ƒfƒBƒ“ƒOƒeƒXƒg—p‚ÌAPIƒT[ƒoƒAƒvƒŠƒvƒƒWƒFƒNƒg‚Å‚·
+ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ãƒ†ã‚¹ãƒˆç”¨ã®APIã‚µãƒ¼ãƒã‚¢ãƒ—ãƒªãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã§ã™
 
-### ƒtƒHƒ‹ƒ_\¬
+## ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆ
 
-|ƒtƒHƒ‹ƒ_|ƒtƒHƒ‹ƒ_|ƒtƒHƒ‹ƒ_|ƒtƒHƒ‹ƒ_|
-| ---- | ---- | ---- |---- |
-|App|Api|Inventories|Controllers|
-||||Models|
-||||Services|
-|||Purchases|
-||||Models|
-||||Services|
-|||Purchases|
-|||ReceiveOrders|
-||||Models|
-||||Services|
-|||Purchases|
-||Module|||
-||Repositories||
+```text
+Root:
+â””â”€App
+   â”œâ”€Api
+   â”‚  â”œâ”€Inventories
+   â”‚  â”‚  â”œâ”€Controllers
+   â”‚  â”‚  â””â”€Services
+   â”‚  â”œâ”€Purchases
+   â”‚  â”‚  â”œâ”€Controllers
+   â”‚  â”‚  â””â”€Services
+   â”‚  â””â”€ReceiveOrders
+   â”‚      â”œâ”€Controllers
+   â”‚      â””â”€Services
+   â”œâ”€Modules
+   â””â”€Repositories
+```
 
-ŠeƒtƒHƒ‹ƒ_‚Ìà–¾‚ÍˆÈ‰º‚Ì’Ê‚è‚Å‚·B
+å„ãƒ•ã‚©ãƒ«ãƒ€ã®èª¬æ˜Žã¯ä»¥ä¸‹ã®é€šã‚Šã§ã™ã€‚
 
-|ƒtƒHƒ‹ƒ_–¼|à–¾|
-| ---- | ---- |
-| App | ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒtƒHƒ‹ƒ_ |
-| Api | API‚ðŽÀ‘•‚µ‚Ä‚¢‚éƒtƒHƒ‹ƒ_ |
-| Api ”z‰º‚ÌƒtƒHƒ‹ƒ_| API‚ðƒhƒƒCƒ“•Ê‚ÉŽÀ‘•‚·‚é‚½‚ß‚ÌƒtƒHƒ‹ƒ_ |
-| ƒhƒƒCƒ“”z‰º‚Ì Controllers | ƒRƒ“ƒgƒ[ƒ‰‚ð’u‚­ƒtƒHƒ‹ƒ_ |
-| ƒhƒƒCƒ“”z‰º‚Ì Services | ƒT[ƒrƒXiƒrƒWƒlƒXƒƒWƒbƒNj‚ð’u‚­ƒtƒHƒ‹ƒ_ |
-| Modules | APIŠJ”­‚É‚¨‚¯‚éƒ‚ƒWƒ…[ƒ‹ŒQ‚ð’u‚­ƒtƒHƒ‹ƒ_ |
-| Repositories | APIŠJ”­‚É‚¨‚¯‚éDBƒAƒNƒZƒXŒQ‚ð’u‚­ƒtƒHƒ‹ƒ_@¦•ÊƒAƒZƒ“ƒuƒŠ‚É‚·‚é‚©ŒŸ“¢’† |
+| ãƒ•ã‚©ãƒ«ãƒ€å                 | èª¬æ˜Ž                                                                   |
+| -------------------------- | ---------------------------------------------------------------------- |
+| App                        | ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãƒ•ã‚©ãƒ«ãƒ€                                               |
+| Api                        | APIã‚’å®Ÿè£…ã—ã¦ã„ã‚‹ãƒ•ã‚©ãƒ«ãƒ€                                              |
+| Api é…ä¸‹ã®ãƒ•ã‚©ãƒ«ãƒ€         | APIã‚’ãƒ‰ãƒ¡ã‚¤ãƒ³åˆ¥ã«å®Ÿè£…ã™ã‚‹ãŸã‚ã®ãƒ•ã‚©ãƒ«ãƒ€                                |
+| ãƒ‰ãƒ¡ã‚¤ãƒ³é…ä¸‹ã® Controllers | ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã‚’ç½®ããƒ•ã‚©ãƒ«ãƒ€                                             |
+| ãƒ‰ãƒ¡ã‚¤ãƒ³é…ä¸‹ã® Services    | ã‚µãƒ¼ãƒ“ã‚¹ï¼ˆãƒ“ã‚¸ãƒã‚¹ãƒ­ã‚¸ãƒƒã‚¯ï¼‰ã‚’ç½®ããƒ•ã‚©ãƒ«ãƒ€                             |
+| Modules                    | APIé–‹ç™ºã«ãŠã‘ã‚‹ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ç¾¤ã‚’ç½®ããƒ•ã‚©ãƒ«ãƒ€                              |
+| Repositories               | APIé–‹ç™ºã«ãŠã‘ã‚‹DBã‚¢ã‚¯ã‚»ã‚¹ç¾¤ã‚’ç½®ããƒ•ã‚©ãƒ«ãƒ€ã€€â€»åˆ¥ã‚¢ã‚»ãƒ³ãƒ–ãƒªã«ã™ã‚‹ã‹æ¤œè¨Žä¸­ |
 
+## è¨­è¨ˆæ–¹é‡
 
-## ÝŒv•ûj
-* API ‚Í REST ‚ðÌ—p‚µ‚Ä‚¢‚Ü‚·B  
-* uƒRƒ“ƒgƒ[ƒ‹EƒT[ƒrƒXEƒŠƒ|ƒWƒgƒŠv3‘wƒŒƒCƒ„[ƒhƒA[ƒLƒeƒNƒ`ƒƒ‚ðÌ—p‚µ‚Ä‚¢‚Ü‚·B  
-* ŠeƒŒƒCƒ„[ŠÔ‚ÍDIƒRƒ“ƒeƒi‚Å‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^ƒCƒ“ƒWƒFƒNƒVƒ‡ƒ“‚ðÌ—p‚µ‚Ä‚¢‚Ü‚·B
-
+* API ã¯ REST ã‚’æŽ¡ç”¨ã—ã¦ã„ã¾ã™ã€‚  
+* ã€Œã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ãƒ»ã‚µãƒ¼ãƒ“ã‚¹ãƒ»ãƒªãƒã‚¸ãƒˆãƒªã€3å±¤ãƒ¬ã‚¤ãƒ¤ãƒ¼ãƒ‰ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£ã‚’æŽ¡ç”¨ã—ã¦ã„ã¾ã™ã€‚  
+* å„ãƒ¬ã‚¤ãƒ¤ãƒ¼é–“ã¯DIã‚³ãƒ³ãƒ†ãƒŠã§ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã‚¤ãƒ³ã‚¸ã‚§ã‚¯ã‚·ãƒ§ãƒ³ã‚’æŽ¡ç”¨ã—ã¦ã„ã¾ã™ã€‚
 
 [README](README.md)
